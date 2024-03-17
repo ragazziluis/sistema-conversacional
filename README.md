@@ -31,3 +31,13 @@ O diagrama de blocos ilustra o fluxo de informações em um sistema conversacion
 
 - Descrição: Avaliar a satisfação e a resposta emocional do usuário, bem como identificar mudanças nas preferências ao longo do tempo.
 - Método: Empregar técnicas de análise de sentimento para compreender a reação emocional do usuário em relação às respostas fornecidas pelo sistema, permitindo uma adaptação mais precisa e contextualizada.
+
+**3. Retorno de Resposta ao Usuário:**
+
+- Descrição: O modelo, após finalizar a análise de sentimento, retorna uma resposta para a interface de usuário.
+- Método: Retornar resposta e oferecer como opcional ao usuário a oportunidade de realizar um feedback.
+
+Repare que, após o modelo retornar uma resposta ao usuário, o mesmo terá a oportunidade de fazer a devolutiva de um feedback para o sistema, fazendo com que o sistema identifique um concept drift. O diagrama dessa parte da solução será da seguinte forma:
+
+### **Descrição Textual do Diagrama de Blocos do Sistema Conversacional com Identificação de Concept Drift**
+
