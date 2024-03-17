@@ -43,3 +43,24 @@ Repare que, após o modelo retornar uma resposta ao usuário, o mesmo terá a op
 
 <img width="2480" alt="Relationship Diagram 2" src="https://github.com/ragazziluis/sistema-conversacional/assets/110607385/9be28dc0-5904-4ea0-9f48-619d00f451ff">
 
+**Feedback do Usuário:**
+
+- O sistema coleta feedback do usuário sobre a resposta gerada.
+- O feedback pode ser positivo (satisfeito com a resposta) ou negativo (insatisfeito com a resposta).
+- O feedback é utilizado para melhorar o desempenho do sistema ao longo do tempo.
+
+**Processamento do Feedback:**
+
+- O feedback do usuário é analisado para determinar se a resposta foi satisfatória ou não.
+- Se a resposta foi satisfatória, o modelo é atualizado para fortalecer a geração de respostas semelhantes.
+- Se a resposta foi insatisfatória, o modelo é atualizado para evitar a geração de respostas semelhantes no futuro.
+
+## **Conclusão**
+
+Esta proposta visa abordar o problema da falta de atualização de modelos em sistemas conversacionais, permitindo que eles se adaptem continuamente às mudanças nos dados de entrada. Embora a implementação de tal solução exija esforço significativo em termos de desenvolvimento de algoritmos de detecção de *concept drift*, reamostragem de dados e treinamento incremental, os benefícios resultantes em termos de qualidade das interações e satisfação do usuário podem justificar esse esforço.
+
+## **Referências Bibliográficas**
+
+1. Gama, J., Sebastião, R., & Rodrigues, P. (2004). Issues in Incremental Learning. In AAAI-2004 Workshop on. Link
+2. Widmer, G., & Kubat, M. (1996). Learning in the Presence of Concept Drift and Hidden Contexts. Machine Learning, 23(1), 69–101. Link
+3. Tsymbal, A. (2004). The problem of concept drift: definitions and related work. Technical report, Trinity College Dublin, Ireland. Link
