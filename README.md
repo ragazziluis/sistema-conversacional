@@ -57,10 +57,9 @@ Repare que, após o modelo retornar uma resposta ao usuário, o mesmo terá a op
 
 ## **Conclusão**
 
-Esta proposta visa abordar o problema da falta de atualização de modelos em sistemas conversacionais, permitindo que eles se adaptem continuamente às mudanças nos dados de entrada. Embora a implementação de tal solução exija esforço significativo em termos de desenvolvimento de algoritmos de detecção de *concept drift*, reamostragem de dados e treinamento incremental, os benefícios resultantes em termos de qualidade das interações e satisfação do usuário podem justificar esse esforço.
+A abordagem proposta visa enfrentar os desafios do concept drift e garantir o aprendizado contínuo em sistemas conversacionais, garantindo sua relevância e eficácia ao longo do tempo. Ao permitir que o sistema colete feedback dos usuários e o utilize para ajustar e melhorar seus modelos de conversação, podemos mitigar os efeitos negativos do concept drift. Essa abordagem não apenas mantém a qualidade das interações, mas também fortalece a confiança do usuário no sistema ao demonstrar uma resposta ativa às suas necessidades e preferências em constante mudança.
 
 ## **Referências Bibliográficas**
 
-1. Gama, J., Sebastião, R., & Rodrigues, P. (2004). Issues in Incremental Learning. In AAAI-2004 Workshop on. Link
-2. Widmer, G., & Kubat, M. (1996). Learning in the Presence of Concept Drift and Hidden Contexts. Machine Learning, 23(1), 69–101. Link
-3. Tsymbal, A. (2004). The problem of concept drift: definitions and related work. Technical report, Trinity College Dublin, Ireland. Link
+1. Joel Jang, Seonghyeon Ye, Sohee Yang, Joongbo Shin, Janghoon Han, Gyeonghun Kim, Stanley Jungkyu Choi, Minjoon Seo (2019). Towards Continual Knowledge Learning of Language Models. [Link](https://arxiv.org/pdf/2110.03215.pdf)
+2. Lambart, Thomas (2022). Concept Drift Detection: An Overview. [Link](https://medium.com/@thomaslambart/concept-drift-detection-an-overview-d087feea9676)
