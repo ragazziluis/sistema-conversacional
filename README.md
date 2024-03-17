@@ -16,6 +16,8 @@ O *concept drift* é uma preocupação central nos sistemas conversacionais. Ele
 
 ### **Diagrama de Blocos**
 
+<img width="1504" alt="Relationship Diagram 1" src="https://github.com/ragazziluis/sistema-conversacional/assets/110607385/555fca5e-f1f1-426c-99c1-023c66074011">
+
 ### **Descrição Textual do Diagrama de Blocos do Sistema Conversacional**
 
 O diagrama de blocos ilustra o fluxo de informações em um sistema conversacional:
