@@ -41,3 +41,5 @@ Repare que, após o modelo retornar uma resposta ao usuário, o mesmo terá a op
 
 ### **Descrição Textual do Diagrama de Blocos do Sistema Conversacional com Identificação de Concept Drift**
 
+<img width="2480" alt="Relationship Diagram 2" src="https://github.com/ragazziluis/sistema-conversacional/assets/110607385/9be28dc0-5904-4ea0-9f48-619d00f451ff">
+
